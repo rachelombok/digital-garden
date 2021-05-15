@@ -2,7 +2,7 @@
 site_name: The Blue Book
 site_description: My personal digital garden
 site_author: Lyz
-site_url: https://lyz-code.github.io/blue-book
+site_url: https://rachelombok.github.io/blue-book
 nav:
   - Introduction: index.md
   - Projects: projects/projects.md
