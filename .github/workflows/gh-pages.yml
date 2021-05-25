@@ -46,13 +46,13 @@ jobs:
       - name: Make the site
         run: make build-docs
 
-      - name: Commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add requirements.txt\
-          git diff-index --quiet HEAD \
-            || git commit -m "chore: update dependency"
+     # - name: Commit files
+      #  run: |
+       #   git config --local user.email "action@github.com"
+        #  git config --local user.name "GitHub Action"
+         # git add requirements.txt\
+         # git diff-index --quiet HEAD \
+          #  || git commit -m "chore: update dependency"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
