@@ -50,10 +50,9 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add requirements.txt
-          git add docs/newsletter
+          git add requirements.txt\
           git diff-index --quiet HEAD \
-            || git commit -m "chore: update dependency and publish newsletters"
+            || git commit -m "chore: update dependency"
 
       - name: Push changes
         uses: ad-m/github-push-action@master

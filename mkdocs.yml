@@ -61,7 +61,7 @@ theme:
     - media: '(prefers-color-scheme: light)'
       scheme: custom
       primary: indigo
-      accent: lime
+      accent: green
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode

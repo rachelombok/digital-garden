@@ -13,4 +13,5 @@ Unlike my blog, this site is an archive of fragmented pieces of information that
 # Creating your own Digital Garden
 
 Create your own garden by cloning my own on [Github](https://github.com/rachelombok/digital-garden), or fork the [original one](https://github.com/lyz-code/blue-book) I created a template of lyz-code's.
-[Guide](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/) on mkdocs customization.
+
+[Guide](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/) on mkdocs customization for Material Theme.
